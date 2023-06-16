@@ -1,3 +1,14 @@
 .App {
   display: flex;
 }
+
+.login-block {
+  margin: 20px;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
