@@ -48,14 +48,15 @@ function App() {
   }
 
   const logout = async () => {
-    const response = await fetch(`${URL}/users/sign_out`, {
-      method: "DELETE"
-    })
+    // add endpoint to handle logout
+    // const response = await fetch(`${URL}/users/sign_out`, {
+    //   method: "DELETE"
+    // })
 
-    if (!response.ok) {
-      const message = `An error has occured: ${response.status}`
-      throw new Error(message)
-    }
+    // if (!response.ok) {
+    //   const message = `An error has occured: ${response.status}`
+    //   throw new Error(message)
+    // }
     setCurentUser(null)
   }
 
