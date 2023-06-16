@@ -12,3 +12,20 @@
   display: flex;
   flex-direction: column;
 }
+
+.tasks-block {
+  display: grid;
+  width: 80%;
+}
+
+.task-item {
+  display: flex;
+  width: 500px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px 10px;
+  margin: 20px;
+  background-color: aquamarine;
+  border: 2px;
+  border-style: dashed;
+}

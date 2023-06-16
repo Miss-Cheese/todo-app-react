@@ -8,6 +8,10 @@ function Task(props) {
                 <p className="task-title">{props.task.title}</p>
                 <p className="task-body">{props.task.body}</p>
             </div>
+            <div>
+                <button>Edit</button>
+                <button>Delete</button>
+            </div>
         </div>
     )
 }

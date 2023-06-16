@@ -1,11 +1,11 @@
 import React from 'react';
-// import Task from './Task'
+import Task from './Task'
 
 function Dashboard(props) {
 
     return (
         <div> 
-         {/* { props.currentUser ? 
+         { props.currentUser ? 
             <div className='tasks-block'>
                 <ul>
                     {
@@ -18,7 +18,7 @@ function Dashboard(props) {
                         })
                     }
                 </ul>
-            </div> : null } */}
+            </div> : null }
         </div>
 
     )
